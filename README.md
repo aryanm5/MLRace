@@ -1,11 +1,8 @@
 # milestone-4-aryanm5
 milestone-4-aryanm5 created by GitHub Classroom
 
-#Milestone 4
-
+# Milestone 4 Explanation
 by Aryan Mittal
-
-Explanation:
 
 The moving circle with the arrow is the agent.
 
