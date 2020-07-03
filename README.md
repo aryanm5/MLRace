@@ -4,20 +4,21 @@ milestone-4-aryanm5 created by GitHub Classroom
 # Milestone 4 Explanation
 by Aryan Mittal
 
-The moving circle with the arrow is the agent.
+The moving circle with the arrow is called the **agent**.
+The dark green circle is the **target**.
 
-The agent uses Reinforcement Learning, which is a type of machine learning, to learn to stay as close as possible to the dark green circle but stay outside the red circle at all costs.
+The agent uses **Reinforcement Learning**, which is a type of machine learning, to get to the target as fast as possible.
 
-With Reinforcement Learning, the agent receives a state and a corresponding reward. The state is the state of the simulation, which is the location of each circle.
+With Reinforcement Learning, the agent receives a state and a corresponding reward. The state is the state of the simulation, which is the location of each circle and the velocity of the agent.
 
-The reward is calculated based on the agent's distance to the green circle and red circle. If the agent is inside the red circle, the reward will be negative depending on how close the agent is to the center of the red circle.
+The reward is calculated based on the agent's distance to the target. The closer the agent is to the target, the higher the reward. If the agent touches the target, it will gain 1 point and receive a large reward.
 
-If the agent is outside the red circle, the reward will be positive depending on how close the agent is to the green circle.
+The agent learns over time as it collects more data that reaching the target first is good, and will act accordingly to get the maximum reward.
 
-The agent learns over time as it collects more data that being close to the green circle is good, while being in the red circle is bad, and will act accordingly to get the maximum reward.
+The brown circle does not use machine learning to move. Its instructions are hardcoded to simply move in the direction of the target, so it does not improve.
 
-The red circle does not use machine learning to move. Its instructions are hardcoded, so it does not improve.
+When the simulation starts, the brown circle is generally much more consistent and reaches the target first most of the time. The agent's moves are mostly random as it explores the simulation and gathers data. However, if you let the simulation run for a while, the machine learning agent will start improving exponentially until it is reaching first almost every time.
 
-If you let the simulation run for some time, you can observe that the agent is much better than before.
+Progress of the simulation can be observed through the line graph below the simulation, which shows the number of points that each player has and updates every 5 seconds.
 
-The lesson from this experiment is that machine learning greatly outperforms hardcoded instructions if enough data is present. However, without large amounts of data, machine learning is not reliable or "smart".
+The lesson from this experiment is that machine learning and hardcoded instructions perform best under different conditions. Machine learning greatly outperforms hardcoded instructions once enough data is collected. However, without large amounts of data, machine learning is not reliable or "smart", and shouldn't be used.
