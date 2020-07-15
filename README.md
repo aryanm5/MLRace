@@ -22,3 +22,5 @@ When the simulation starts, the brown circle is generally much more consistent a
 Progress of the simulation can be observed through the line graph below the simulation, which shows the number of points that each player has and updates every 5 seconds.
 
 The lesson from this experiment is that machine learning and hardcoded instructions perform best under different conditions. Machine learning greatly outperforms hardcoded instructions once enough data is collected. However, without large amounts of data, machine learning is not reliable or "smart", and shouldn't be used.
+
+![Image of graph after enough time has passed](graph_long.png?raw=true "Graph after enough time has passed")
