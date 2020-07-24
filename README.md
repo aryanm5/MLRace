@@ -1,7 +1,4 @@
-# milestone-4-aryanm5
-milestone-4-aryanm5 created by GitHub Classroom
-
-# Milestone 4 Explanation
+# Machine Learning Race Explanation
 by Aryan Mittal
 
 The moving circle with the arrow is called the **agent**.
