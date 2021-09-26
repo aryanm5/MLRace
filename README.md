@@ -1,6 +1,8 @@
 # Machine Learning Race Explanation
 by Aryan Mittal
 
+Live demo at [mittaldev.com/mlrace](https://mittaldev.com/mlrace/)
+
 The moving circle with the arrow is called the **agent**.
 The dark green circle is the **target**.
 
